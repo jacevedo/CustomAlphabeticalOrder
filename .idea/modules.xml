@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlphabeticalOrderExample.iml" filepath="$PROJECT_DIR$/AlphabeticalOrderExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomAlphabeticalOrder.iml" filepath="$PROJECT_DIR$/CustomAlphabeticalOrder.iml" />
       <module fileurl="file://$PROJECT_DIR$/alphabeticalorder/alphabeticalorder.iml" filepath="$PROJECT_DIR$/alphabeticalorder/alphabeticalorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

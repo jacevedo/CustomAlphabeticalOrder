@@ -14,7 +14,7 @@
         android:text="New Button"
         android:id="@+id/btnShowView" />
 
-    <ListView
+    <cl.crossline.alphabeticalorder.AlphabeticalListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lstExample"

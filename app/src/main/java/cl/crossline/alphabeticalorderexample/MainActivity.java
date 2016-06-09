@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Locale;
 
+import cl.crossline.alphabeticalorder.AlphabeticalAdapter;
 import cl.crossline.alphabeticalorder.CustomAlphabetical;
 
 
@@ -36,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Cust
         alphabetical = (CustomAlphabetical)findViewById(R.id.customAlphabetical);
         lstExample = (ListView)findViewById(R.id.lstExample);
 
-        lstExample.setAdapter(new AdapterList(getList(),this,alphabetical));
+        lstExample.setAdapter(new AlphabeticalAdapter(this,new AdapterList(getList(),this,alphabetical)));
 
 
         alphabetical.setLetterColor(Color.GREEN);
